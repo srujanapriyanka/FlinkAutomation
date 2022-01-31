@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-31T15:55:16 CET" name="Flink Automation tests" finished-at="2022-01-31T15:55:33 CET" duration-ms="16582">
+    <groups>
+    </groups>
+    <test started-at="2022-01-31T15:55:16 CET" name="Flink Automation Tests" finished-at="2022-01-31T15:55:33 CET" duration-ms="16582">
+      <class name="com.weathershopper.tests.WeatherShopperTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.weathershopper.tests.WeatherShopperTest@68c72235]" started-at="2022-01-31T15:55:16 CET" name="setup" finished-at="2022-01-31T15:55:19 CET" duration-ms="3217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_weatherShopperEndToEndTest()[pri:0, instance:com.weathershopper.tests.WeatherShopperTest@68c72235]" started-at="2022-01-31T15:55:19 CET" name="TC01_weatherShopperEndToEndTest" finished-at="2022-01-31T15:55:33 CET" duration-ms="13223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_weatherShopperEndToEndTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.weathershopper.tests.WeatherShopperTest@68c72235]" started-at="2022-01-31T15:55:33 CET" name="closeBrowser" finished-at="2022-01-31T15:55:33 CET" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.weathershopper.tests.WeatherShopperTest -->
+    </test> <!-- Flink Automation Tests -->
+  </suite> <!-- Flink Automation tests -->
+</testng-results>

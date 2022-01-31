@@ -1,0 +1,48 @@
+# Wagawin Automation Tests
+
+# Framework design
+
+* Page Object model with page factory design pattern followed for the actions to be performed on each page. 
+* Under this model, AmazonPage class will identify the WebElements of that web page and also contains Page methods which perform operations on those WebElements.
+
+
+### Tools and Technologies used
+
+* Java (1.8 or higher)
+* Selenium (3.141.59)
+* TestNG
+* Chrome Browser (Version 97.0.4692.99 (Official Build) (64-bit))
+* Maven
+* Extent Report
+
+
+### The below functionalities are covered in testcases.
+
+* (com.livingad.tests.TC01_userCanReadPrivayPolicies)
+	Scenario1: Check User is able to read the Privacy policies.
+
+* (com.livingad.tests.TC02_userCanNavigateToWagawinPage)
+	Scenario2: Check User is able to navigate to the Wagawin website upon clickingon Wagawin sticker.
+
+* (com.livingad.tests.TC03_userCanCloseLivingAd)
+	Scenario3: Check User is able to close the LivingAd upon clicking on close button.
+
+
+### Configuration/setup to be done to run the project
+
+* The below details are configured in config.properies file(available in caresyntaxtestautomation\src\main\java\com\livingad\config\config.properties)
+	* url = https://de.wagawin.com/web/sdk/preview?livingAdId=8415ba9b-69c0-42fd-b49a-2ea3679cdf4e&livingAdMediaQuality=HIGH
+	* browser = chrome or FF (for firefox) 
+
+* We can pass any test data from config.properties file of our choice.
+* Chromedriver or Geckodriver executable files supported for MAC are available in drivers folder.
+* BaseTest class (com.livingad.base package) is base class for all tests and it provides configurations like url, email, password and browser details
+* All test classes (com.livingad.tests package) extends TestBase class to inherit base configuration data.
+
+
+### To Run Tests
+* testng.xml file is configured with tests and extent reports.
+* run the tests by executing the testng.xml file as testng suite.
+* after tests run, open report under test-output/TestResults.html to see interactive HTML report on test execution status.
+
+
